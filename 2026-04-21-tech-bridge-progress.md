@@ -1,10 +1,9 @@
-TB Learning Log: Initial Commit & Git Sync
-Date: 2026-04-21
+# Date: 2026-04-21
 
-What I was trying to do
+## What I was trying to do
 Establish the initial repository structure for Project TB and sync local files with GitHub.
 
-The problem
+## The problem
 
 Had duplicate folders with case-sensitive naming conflicts (TechBridge vs tech-bridge).
 
@@ -12,7 +11,7 @@ Ran into a fatal: refusing to merge unrelated histories error after creating fil
 
 Encountered a Merge Conflict in index.html.
 
-What I tried
+## What I tried
 
 Used ls -la to find the hidden .git folder.
 
@@ -22,7 +21,7 @@ Ran git pull origin main --allow-unrelated-histories to force a sync.
 
 Used the VS Code Source Control panel to "Accept Incoming Change" and resolve the conflict.
 
-What I learned
+## What I learned
 
 The Pilot Rule: Never rename or move folders manually in Windows Explorer while Git is tracking them; use the IDE or git mv.
 
